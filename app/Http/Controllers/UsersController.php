@@ -41,7 +41,7 @@ class UsersController extends Controller
 
 //        return $message;
         $user->save();
-//        return $user;
+        return $user;
     }
 
 
