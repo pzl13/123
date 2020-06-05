@@ -39,8 +39,8 @@ class UsersController extends Controller
 //            return redirect('main');
         }
 
-        return $message;
-//        $user->save();
+//        return $message;
+        $user->save();
 //        return $user;
     }
 
